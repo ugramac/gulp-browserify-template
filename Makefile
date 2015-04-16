@@ -1,6 +1,7 @@
 init:
 	cp -r phonegap build
 	-cd build/phonegap && phonegap platform add ios
+	gulp build
 
 clean:
 	rm -rf build/phonegap
